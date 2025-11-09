@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full-Stack Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <a href="#about" class="a">About Us</a>
+        <a href="#projects" class="a">My Projects</a>
+        <a href="#contact" class="a">Contact</a>
+    </nav>
+    
+    <!-- Hero Section -->
+    <section class="container_image">
+        <div class="my">
+            <img src="/images/logo.jpg" alt="Logo" class="logo">
+        </div>
+        <div class="intro-text">
+            <h1 class="role">Full-Stack Developer</h1>
+            <p class="intro-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Dolores, vero. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Vero, Lorem ipsum dolor sit amet.
+            </p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="head">
+            <a href="hari.html">
+                <button><h1 class="button">Technical Expertise</h1></button>
+            </a>
+        </div>
+
+        <div class="long">
+            <div class="html">
+                <img src="/images/html.jpg" alt="HTML logo" width="250" height="250">
+                <p class="htmlintro">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Labore ab corrupti maxime quos quibusdam beatae!
+                </p>
+            </div>
+
+            <div class="css">
+                <img src="/images/css.jpg" alt="CSS logo" width="250" height="250">
+                <p class="cssintro">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Labore ab corrupti maxime quos quibusdam beatae!
+                </p>
+            </div>
+
+            <div class="js">
+                <img src="/images/js.jpg" alt="JavaScript logo" width="250" height="250">
+                <p class="jsintro">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Labore ab corrupti maxime quos quibusdam beatae!
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Icons -->
+    <section class="co">
+        <div class="emojo whatsapp">
+            <img src="/images/what.jpg" alt="WhatsApp" width="50" height="50">
+        </div>
+        <div class="emojo call">
+            <img src="/images/call.jpg" alt="Call" width="50" height="50">
+        </div>
+        <div class="emojo mail">
+            <img src="/images/mail.jpg" alt="Mail" width="50" height="50">
+        </div>
+    </section>
+
+    <hr class="divider">
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="project">
+            <button><h1 class="button">My Projects</h1></button>
+        </div>
+        
+        <div class="projectcontainer">
+            <div class="numerical_image">
+                <h3>Numerical Methods:</h3>
+                <img src="/images/numerical.jpg" alt="Project 1" class="nimage" width="350" height="250">
+                <p class="intro" style="padding: 20px;">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                    Quo hic cum ut eos impedit placeat officia laboriosam deleniti distinctio.
+                </p>
+                
+            </div>
+       
+            <div class="difference">
+                <h3 style="padding: 10px;">Differencial Equations:</h3>
+                <img src="/images/differencial.jpg" alt="Project 2" width="350" height="250" class="dimage">
+                <p class="intro" style="padding: 20px;">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Labore ullam voluptate suscipit? Corrupti ea, quod, quaerat doloribus temporibus sed beatae quas magni.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <hr class="divider">
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="contact_head">
+            <h1 style="text-decoration: underline; text-align: center;">Contact Me:</h1>
+        </div>
+
+        <fieldset>
+            <legend><h2>Details:</h2></legend>
+            <form action="hari.html">
+                <label for="name">Enter Your Name:</label>
+                <input type="text" id="name" name="name" placeholder="Name" required><br><br>
+
+                <label for="number">Enter Your Number:</label>
+                <input type="tel" id="number" name="number" placeholder="Number" required><br><br>
+
+                <label for="email">Enter Your Email:</label>
+                <input type="email" id="email" name="email" placeholder="Email" required><br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" cols="50" rows="10" required></textarea><br><br>
+
+                <button type="submit"><h1 class="button">Submit</h1></button>
+            </form>
+        </fieldset>
+    </section>
+</body>
+</html>

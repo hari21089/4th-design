@@ -1,0 +1,235 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0d0d0d;
+    color: aqua;
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Navbar */
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 100px;
+    align-items: center;
+    padding: 20px;
+    border: 2px solid aqua;
+    box-shadow: 0 0 15px aqua;
+    height: 70px;
+}
+
+.a {
+    font-size: 20px;
+    color: aqua;
+    text-decoration: none;
+    position: relative;
+    padding: 10px 20px;
+    transition: 0.5s;
+}
+
+.a:hover {
+    background-color: aqua;
+    color: black;
+    border-radius: 15px;
+    box-shadow: 0 0 15px aqua;
+}
+
+/* Hero Section */
+.container_image {
+    background: linear-gradient(to right, black, rgba(0, 255, 255, 0.4));
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 30px;
+    gap: 50px;
+}
+
+.logo {
+    box-shadow: 0 0 15px aqua,0 0 15px aqua;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.intro-text {
+    max-width: 600px;
+}
+
+.role {
+    font-size: 50px;
+    text-shadow: 0 0 10px aqua;
+}
+
+.intro-desc {
+    font-size: 18px;
+    color: #ccffff;
+    margin: 30px;
+}
+
+/* Section Titles */
+.head, .project {
+    text-align: center;
+    margin: 40px 0;
+}
+
+button {
+    background-color: aqua;
+    color: black;
+    border-radius: 10px;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    box-shadow: 0 0 15px aqua;
+}
+
+/* About Section */
+.long {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.html, .css, .js {
+    border: 2px solid aqua;
+    border-radius: 20px;
+    box-shadow: 0 0 10px aqua;
+    width: fit-content;
+    padding: 20px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.html:hover, .css:hover, .js:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px aqua;
+}
+
+.htmlintro, .cssintro, .jsintro {
+    width: 250px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Contact Icons */
+.co {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px 0;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.emojo {
+    border: 3px solid aqua;
+    border-radius: 50%;
+    padding: 10px;
+    transition: 0.5s;
+}
+
+.emojo:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 15px aqua;
+}
+
+/* Projects */
+.projectcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid aqua;
+    border-radius: 20px;
+    padding: 20px;
+    background-image: url('./images/sbg.jpg');
+    background-size: cover;
+    width: 700px;
+    margin: auto;
+    transition: 1s;
+}
+
+.projectcontainer:hover {
+    box-shadow: 0 0 15px aqua;
+    transform: scale(1.05);
+}
+
+.intro {
+    width: 90%;
+    color: #ccffff;
+    text-align: center;
+    border-bottom: 2px solid white; 
+}
+
+/* Contact Form */
+fieldset {
+    width: 80%;
+    max-width: 600px;
+    margin: 30px auto;
+    border: 2px solid aqua;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+label {
+    font-size: 18px;
+}
+
+input, textarea {
+    width: 100%;
+    margin-top: 8px;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+
+textarea {
+    resize: none;
+}
+
+.divider {
+    height: 5px;
+    background-color: aqua;
+    border: none;
+    margin: 40px 0;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+        gap: 15px;
+        background-color: #091218;
+        padding: 15px;
+    }
+
+    .container_image {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .projectcontainer {
+        width: 90%;
+    }
+}
+
+.nimage{
+    width: 100%;
+    padding: 20px;
+    
+}
+.dimage{
+    width: 100%;
+    padding: 20px;
+}
